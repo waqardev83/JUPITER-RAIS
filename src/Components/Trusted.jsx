@@ -147,7 +147,7 @@ export default function App() {
               initial={{ width: 0 }}
               animate={{ width: 32 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="h-[2.5px] bg-[#FF4D15] rounded-full inline-block" 
+              className="h-[2.5px] bg-[#FF4700] rounded-full inline-block" 
             />
           </motion.div>
 
@@ -176,7 +176,7 @@ export default function App() {
                     variants={itemVariants}
                     whileHover={{ y: -6, boxShadow: '0 20px 35px -10px rgba(0, 0, 0, 0.08)' }}
                     transition={{ duration: 0.25, ease: "easeOut" }}
-                    className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-7 md:p-8  flex flex-col justify-between transition-shadow duration-300 hover:bg-[#FF4D15]/80"
+                    className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-7 md:p-8  flex flex-col justify-between transition-shadow duration-300 hover:bg-[#ff4e00]"
                   >
                     <div>
                       {/* 5 Stars Rating */}

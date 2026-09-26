@@ -99,7 +99,7 @@ export default function Hardware() {
                   key={item.id}
                   variants={itemVariants}
                   whileHover={{ y: -4 }}
-                  className="bg-white rounded-2xl p-6 sm:p-7 border hover:bg-amber-600 border-slate-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_15px_35px_rgba(0,0,0,0.06)] transition-all duration-300 flex flex-col justify-start"
+                  className="bg-white rounded-2xl p-6 sm:p-7 border lg:hover:bg-[#ff4e00] border-slate-100 shadow-[0_10px_30px_rgba(0,0,0,0.03)] hover:shadow-[0_15px_35px_rgba(0,0,0,0.06)] transition-all duration-300 flex flex-col justify-start"
                 >
                   {/* Soft Orange Rounded Icon Container */}
                   <div className="w-12 h-12 rounded-full bg-[#fff0e6] flex items-center justify-center mb-5 shrink-0">
